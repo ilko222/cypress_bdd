@@ -1,0 +1,15 @@
+{
+  "baseUrl": "http://172.17.0.2:5000",
+  "video": false,
+  "chromeWebSecurity": false,
+  "defaultCommandTimeout": 8000,
+  "pageLoadTimeout": 15000,
+  "ignoreTestFiles": [
+    "*.js"
+  ],
+  "firefoxGcInterval": {
+    "runMode": 1,
+    "openMode": null
+  },
+  "testFiles": "**/*.feature"
+}

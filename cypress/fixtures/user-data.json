@@ -1,0 +1,48 @@
+{
+    "validUserCombinations": [
+        {
+            "firstName": "emma",
+            "lastName": "stewart",
+            "city": "worcester"
+        },        {
+            "firstName": "linda",
+            "lastName": "ruiz",
+            "city": "liverpool"
+        },        {
+            "firstName": "julia",
+            "lastName": "cunningham",
+            "city": "sheffield"
+        },        {
+            "firstName": "lloyd",
+            "lastName": "gonzalez",
+            "city": "hereford"
+        },        {
+            "firstName": "danielle",
+            "lastName": "moore",
+            "city": "cardiff"
+        }
+    ],
+    "invalidUsersCombinations":[
+        {
+            "firstName": "TestName",
+            "lastName": "TestLastName",
+            "city": "TestCity"
+        },        {
+            "firstName": "emma",
+            "lastName": "TestLastName2",
+            "city": "TestCity2"
+        },        {
+            "firstName": "TestName3",
+            "lastName": "stewart",
+            "city": "TestCity3"
+        },        {
+            "firstName": "TestName2",
+            "lastName": "TestLastName2",
+            "city": "worcester"
+        },        {
+            "firstName": "emma",
+            "lastName": "moore",
+            "city": "liverpool"
+        }
+    ]
+}
